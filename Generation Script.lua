@@ -1,18 +1,14 @@
 -- Made by DragonSpawner12
 
-local blockSize = script.BlockSize.Value
-local noiseScale = script.NoiseScale.Value
-local amplitude = script.Amplitude.Value
-local xLength = script.X.Value
-local zLength = script.Z.Value
+local blockSize = 5
+local noiseScale = 10
+local amplitude = 15
+local xLength = 50
+local zLength = 50
 math.randomseed(tick())
 local seed = math.random()
-if script.Seed.Value then
-	local seed = script.Seed.Value
-end
 
-
-local isColorCoded = script.ColorCoded.Value
+local isColorCoded = true
 
 
 local terrainFolder 
